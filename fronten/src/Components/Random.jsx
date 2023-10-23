@@ -29,7 +29,7 @@ const Random = () => {
 
   useEffect(() => {
     loadMoreItems();
-  }, []); // Load initial data
+  }, []); 
 
   const Row = ({ index, style }) => {
     const item = items[index];
