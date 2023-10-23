@@ -38,7 +38,7 @@ const Random = () => {
     }
     return (
       <div style={style} className="list-item">
-        <Card item={item} /> 
+        <Card item={item} index={index} /> 
       </div>
     );
   };
