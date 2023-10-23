@@ -5,7 +5,7 @@ import axios from 'axios';
 import Loading from './Loading';
 import Card from './Card';
 
-const RandomData = () => {
+const Random = () => {
   const [items, setItems] = useState([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
@@ -61,4 +61,4 @@ const RandomData = () => {
   );
 };
 
-export default RandomData;
+export default Random;
