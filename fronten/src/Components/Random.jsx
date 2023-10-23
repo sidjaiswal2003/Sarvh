@@ -31,13 +31,13 @@ const Random = () => {
     loadMoreItems();
   }, []); // Load initial data
 
-  const Row = ({ index, style }) => {
+  const Row = ({ index }) => {
     const item = items[index];
     if (!item) {
       return <Loading></Loading>;
     }
     return (
-      <div style={style} className="list-item">
+      <div  className="list-item">
         <Card item={item} index={index} /> 
       </div>
     );

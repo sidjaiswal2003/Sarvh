@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -11,6 +16,13 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.list-item{
+  height: 150px;
+}
+.card{
+  height: 100%;
+  border-bottom: 0.15px solid rgba(128, 128, 128, 0.974);
 }
 
 .App-header {
