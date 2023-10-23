@@ -5,9 +5,9 @@ import React from 'react';
 const Card = (props) => {
   return (
     <div className="card">
-      <p>{props.index}</p>
-      <h3>{props.item.title}</h3>
-      <p>{props.item.body}</p>
+      <div className='index'>{props.index}</div>
+      <div className='heading'>{props.item.title}</div>
+      <div className='details'>{props.item.body}</div>
     </div>
   );
 };

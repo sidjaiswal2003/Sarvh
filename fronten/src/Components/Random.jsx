@@ -36,8 +36,9 @@ const Random = () => {
     if (!item) {
       return <Loading></Loading>;
     }
+   
     return (
-      <div style={style} className="list-item">
+      <div style={style}  className="list-item">
         <Card item={item} index={index} /> 
       </div>
     );
@@ -47,7 +48,7 @@ const Random = () => {
       <List
         height={400}
         itemCount={items.length + 1} 
-        itemSize={100}
+        itemSize={150}
         onItemsRendered={({ visibleStopIndex }) => {
           if (visibleStopIndex === items.length - 1) {
             loadMoreItems();
